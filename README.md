@@ -39,7 +39,6 @@
 ## Install package
 You could use virtual environment for setup [ref](https://docs.python.org/3/library/venv.html)
 ```
-cd src
 pip install -r req.txt
 ```
 

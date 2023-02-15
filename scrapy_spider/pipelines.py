@@ -12,7 +12,7 @@ class ScrapySpiderPipeline(object):
     def __init__(self):
         pass
 
-    def process_item(self, item):
+    def process_item(self, item, spider):
         """
         This method is called for every item pipeline component.
         Bind data to vertical axis and horizontal axis
